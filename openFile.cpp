@@ -17,8 +17,9 @@ int main()
   }
   in >> count;
   out.open("output.txt");
-  cout << count;
-
+  /* cout << count; */
   out << (int) count + 1;
+  out.close();
+  in.close();
   return 0;
 }
